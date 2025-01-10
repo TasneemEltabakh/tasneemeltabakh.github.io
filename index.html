@@ -1,59 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tasneem Muhammed Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasneem Muhammed - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .profile, .education, .experience, .projects, .activities {
+            margin-bottom: 40px;
+        }
+        .profile p, .education p, .experience p, .projects p, .activities p {
+            margin: 0 0 10px;
+        }
+        .section-header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            margin: -20px -20px 20px -20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Tasneem Muhammed</h1>
-    <p>Backend Developer | Data Scientist | Machine Learning Enthusiast</p>
-  </header>
-
-  <nav>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <main>
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <strong>AI vs. Human Code Analysis</strong> - Developed a machine learning model to classify code quality.
-          <a href="https://github.com/TasneemEltabakh/Analyzing-U.S.-COVID-19-Data" target="_blank">View on GitHub</a>
-        </li>
-        <li>
-          <strong>Paint and Play</strong> - C++ project merging painting and gaming.
-          <a href="https://github.com/TasneemEltabakh/Paint-Play" target="_blank">View on GitHub</a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="skills">
-        <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" alt="C#">
-        <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker">
-        <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
-        <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React">
-        <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="SQL">
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:tasneemeltabakhh@gmail.com">tasneemeltabakhh@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/tasneem-el-tabakh-5a79b0241/" target="_blank">Visit Profile</a></p>
-      <p>GitHub: <a href="https://github.com/TasneemEltabakh" target="_blank">Visit Repository</a></p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Tasneem Muhammed. All rights reserved.</p>
-  </footer>
+    <header>
+        <h1>Tasneem Muhammed Attia</h1>
+        <p>Junior Backend Developer | tasneemeltabakhh@gmail.com | 01158060254</p>
+        <p><a href="https://www.linkedin.com/in/tasneem-el-tabakh-5a79b0241/" target="_blank">LinkedIn</a> | <a href="https://github.com/zwayth" target="_blank">GitHub</a></p>
+    </header>
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#activities">Activities</a>
+    </nav>
+    <div class="container">
+        <section id="profile" class="profile">
+            <div class="section-header">
+                <h2>Profile</h2>
+            </div>
+            <p>Junior backend developer specializing in .NET Core with a strong background in web development. Proficient in building RESTful APIs, managing databases, and securing platforms with JWT authentication. Skilled in using Docker and CI/CD for deployment and testing.</p>
+        </section>
+        <section id="education" class="education">
+            <div class="section-header">
+                <h2>Education</h2>
+            </div>
+            <p><strong>University of Science and Technology at Zewail City</strong></p>
+            <p>B.S. in Communication and Information Engineering, Major in Data Science and AI (cGPA: 3.4)</p>
+            <p>Minor in Computer Science, Software Applications Development (Sep 2021 – June 2026)</p>
+        </section>
+        <section id="experience" class="experience">
+            <div class="section-header">
+                <h2>Experience</h2>
+            </div>
+            <p><strong>.Net Developer</strong> | Team Way | Remote | Jul 2024 – Present</p>
+            <ul>
+                <li>Developed a cloud-based platform with integrated services for WhatsApp Business, Grandstream API, and CRM systems.</li>
+                <li>Built and maintained RESTful APIs for core functionalities like call management, messaging, and data synchronization.</li>
+            </ul>
+            <p><strong>Technical Leader</strong> | Innova | Cairo, Egypt | June 2024 – Oct 2024</p>
+            <ul>
+                <li>Managed tasks on Jira and monitored all tech members.</li>
+                <li>Implemented back-end using ASP.NET and designed databases using SQL.</li>
+            </ul>
+            <!-- Add more experiences here -->
+        </section>
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <h2>Projects</h2>
+            </div>
+            <p><strong>Paint and Play</strong> | OOP by C++</p>
+            <ul>
+                <li>Created an innovative project merging painting and gaming elements using C++ and object-oriented design.</li>
+            </ul>
+            <p><strong>OS Simulation</strong> | C in Linux</p>
+            <ul>
+                <li>Developed an Operating System Simulation in C on Linux, simulating various algorithms.</li>
+            </ul>
+            <!-- Add more projects here -->
+        </section>
+        <section id="activities" class="activities">
+            <div class="section-header">
+                <h2>Extracurricular Activities</h2>
+            </div>
+            <p><strong>“Quartz” Novel Writer</strong> | Cairo International Book Fair | Sep 2021 – Present</p>
+            <p><strong>Vice Head for Organization Committee</strong> | Zewail City Science Festival | Feb 2024 – Present</p>
+            <ul>
+                <li>Assisted in planning and overseeing the festival activities.</li>
+            </ul>
+            <!-- Add more activities here -->
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Tasneem Muhammed Attia. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
